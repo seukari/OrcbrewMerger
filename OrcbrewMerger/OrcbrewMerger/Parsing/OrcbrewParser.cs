@@ -21,42 +21,42 @@ namespace OrcbrewMerger.Parsing
             {
                 
                 char cChar = sFileString[i];
-                if (cChar.Equals('\\') && sFileString[i + 1] == 'n')
+                if (cChar.Equals('\\') && sFileString[i + 1] == 'n')   //Removes new lines added by OrcPub
                 {
                     sFileString.Remove(i, 2);
                 }
-                if (cChar.Equals('"'))
+                if (cChar.Equals('"'))                          //Toggles between being in a value field and a key field
                 {
-                    inString = !inString;
+                    inString = !inString;                       //To avoid editing values
                 }
-                if (cChar.Equals(':') && sFileString[i+1] != ' ' && !inString)
+                if (cChar.Equals(':') && sFileString[i+1] != ' ' && !inString)   //Removes colon from the start of a key
                 {
-                    sFileString[i] = '"';
-                    removed = true;
+                    sFileString[i] = '"';                                       //Adds starting " to key name
+                    removed = true;                                             //Indicates that the colon has been removed, and a " will be required at the end of the word
                     continue;
                 }
-                if (removed && cChar.Equals('}'))
+                if (removed && cChar.Equals('}'))               //Corner case for adding " to the end of an entry
                 {
                     sFileString.Insert(i, "\"");
                     i = i + 1;
                     removed = false;
                     continue;
                 }
-                if (removed && cChar.Equals(','))
+                if (removed && cChar.Equals(','))              //Corner case for adding " to the end of an entry
                 {
                     sFileString.Insert(i, "\"");
                     i = i + 1;
                     removed = false;
                     continue;
                 }
-                if (removed && Char.IsWhiteSpace(cChar))
+                if (removed && Char.IsWhiteSpace(cChar))        //Adds " to the end of the word
                 {
                     sFileString.Insert(i, "\": ");
                     i = i + 2;
                     removed = false;
                     continue;
                 }
-                if (cChar.Equals('}'))
+                if (cChar.Equals('}'))                      //Adds a comma between array values
                 {
                     if (i < sFileString.Length - 2 && sFileString[i+1] == ' ' && sFileString[i+2] == '{')
                     {
@@ -68,7 +68,7 @@ namespace OrcbrewMerger.Parsing
 
                 }
 
-            return sFileString.ToString();
+            return sFileString.ToString();              //return string of JSON format
             
         }
 
