@@ -1,0 +1,14 @@
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\bin\Debug\OrcbrewMerger.exe.config
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\bin\Debug\OrcbrewMerger.exe
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\bin\Debug\OrcbrewMerger.pdb
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.csprojResolveAssemblyReference.cache
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\MainWindow.g.cs
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\App.g.cs
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger_MarkupCompile.cache
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger_MarkupCompile.lref
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\MainWindow.baml
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.g.resources
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.Properties.Resources.resources
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.csproj.GenerateResource.Cache
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.exe
+C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.pdb
