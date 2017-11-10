@@ -12,8 +12,8 @@ namespace OrcbrewMerger.Parsing
 
         public static string ParseOrcbrewFile(string input)
         {
-            
-            sFileString = new System.Text.StringBuilder(reader.ReadToEnd());
+
+            StringBuilder sFileString = new System.Text.StringBuilder(input);
                             
             bool removed = false;
             bool inString = false;
@@ -68,7 +68,7 @@ namespace OrcbrewMerger.Parsing
 
                 }
 
-            return sFileString.toString();
+            return sFileString.ToString();
             
         }
 

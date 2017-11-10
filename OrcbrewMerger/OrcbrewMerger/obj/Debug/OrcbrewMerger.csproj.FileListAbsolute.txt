@@ -12,3 +12,6 @@ C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\o
 C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.csproj.GenerateResource.Cache
 C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.exe
 C:\Users\Ada\Documents\Visual Studio 2015\Projects\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.pdb
+C:\Users\P56\Documents\GitHub\OrcbrewMerger\OrcbrewMerger\OrcbrewMerger\bin\Debug\OrcbrewMerger.exe.config
+C:\Users\P56\Documents\GitHub\OrcbrewMerger\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.exe
+C:\Users\P56\Documents\GitHub\OrcbrewMerger\OrcbrewMerger\OrcbrewMerger\obj\Debug\OrcbrewMerger.pdb
